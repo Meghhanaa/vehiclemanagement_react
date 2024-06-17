@@ -1,0 +1,60 @@
+/* Header.css */
+:root {
+  --primary: #00B98E;
+  --secondary: #FF6922;
+  --light: #EFFDF5;
+  --dark: #0E2E50;
+}
+
+
+.text-01{
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.carousel img {
+  min-width: 100%;
+  transition: transform 0.5s ease;
+}
+
+.carousel img.active {
+  transform: scale(1.05);
+}
+
+.carousel-control-prev, .carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-image: url('path-to-your-arrow-icon.svg'); /* Replace with your arrow icon */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+/* Add additional styling as needed to match the design */

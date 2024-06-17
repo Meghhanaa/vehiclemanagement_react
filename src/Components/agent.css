@@ -1,0 +1,14 @@
+/* Agent Component Styles */
+.container-xxl {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.bg-light {
+    background-color: #f8f9fa; /* This should match your theme's light background color */
+}
+
+.bg-white {
+    background-color: #ffffff;
+    border: 1px dashed rgba(0, 185, 142, .3); /* Adjust the rgba values to match your theme */
+}

@@ -1,0 +1,23 @@
+/* You can add your styles here. Below is an example to get you started based on your HTML structure. */
+
+/* Search Component Styles */
+.container-fluid {
+    background-color: #00B98E ; /* Replace with your primary color */
+    margin-bottom: 5rem;
+    padding: 35px;
+}
+
+.search{
+    display: column;
+}
+
+.form-select,
+.form-control {
+    border: 0;
+    padding: 1.5rem;
+}
+
+
+.btn-dark {
+    border: 0;
+}
