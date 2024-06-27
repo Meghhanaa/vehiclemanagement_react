@@ -19,7 +19,7 @@ const About = () => {
                         <p><i className="fa fa-check text-primary me-3"></i>Renting a vehicle is easy with us</p>
                         <p><i className="fa fa-check text-primary me-3"></i>24/7 vehicle Support</p>
                         <p><i className="fa fa-check text-primary me-3"></i>we have provided vehicles all over cities.</p>
-                        <a className="btn btn-primary py-3 px-5 mt-3" href="/">Read More</a>
+                        <a className="btn btn-primary py-3 px-5 mt-3" href="/">Read More </a>
                     </div>
                 </div>
             </div>
